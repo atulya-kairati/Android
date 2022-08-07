@@ -7,8 +7,12 @@
         "id": "e4605f9b64e25c20",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Components/Layout/3. Linear Layout.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Components/Layout/3. Linear Layout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Components/Layout/3. Linear Layout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,23 +116,27 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Components/Layout/3. Linear Layout.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "7d1513fa5ed262e6",
+  "active": "46c7750626dd416c",
   "lastOpenFiles": [
+    "Components/Layout/2. Relative Layout.md",
+    "Components/Layout/1. Layouts.md",
+    "Components/Layout/4. Table Layout.md",
     "2022-08-07.md",
-    "Components/Layout/Table Layout.md",
-    "Components/Layout/Constraint Layout.md",
-    "Components/Layout/Linear Layout.md",
-    "Components/Layout/Relative Layout.md",
+    "Components/Layout/5. Constraint Layout.md",
+    "Components/Layout/3. Linear Layout.md",
     "Untitled.md"
   ]
 }
