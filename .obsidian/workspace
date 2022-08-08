@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "aa5554026df63259",
+        "id": "2dbd4e72a33a4b49",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ComponentsAndLifeCycles/App Lifecycle.md",
+            "file": "ComponentsAndLifeCycles/Intents.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComponentsAndLifeCycles/App Lifecycle.md",
+                "file": "ComponentsAndLifeCycles/Intents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComponentsAndLifeCycles/App Lifecycle.md",
+                "file": "ComponentsAndLifeCycles/Intents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComponentsAndLifeCycles/App Lifecycle.md"
+                "file": "ComponentsAndLifeCycles/Intents.md"
               }
             }
           }
@@ -129,14 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "aa5554026df63259",
+  "active": "2dbd4e72a33a4b49",
   "lastOpenFiles": [
-    "Components/Layout/3. Linear Layout.md",
-    "Components/Layout/2. Relative Layout.md",
-    "Components/Layout/1. Layouts.md",
-    "Components/Layout/4. Table Layout.md",
-    "2022-08-07.md",
-    "Components/Layout/5. Constraint Layout.md",
-    "Untitled.md"
+    "ComponentsAndLifeCycles/App Lifecycle.md",
+    "ComponentsAndLifeCycles/Intents.md",
+    "ComponentsAndLifeCycles/Broadcast Reciever.md",
+    "Recording 20220809004412.webm",
+    "Recording 20220809004346.webm",
+    "ComponentsAndLifeCycles/Services.md",
+    "ComponentsAndLifeCycles/Fragment Lifecycle.md",
+    "fragment_lifecycle2.png",
+    "ComponentsAndLifeCycles/Activity Lifecycle.md",
+    "Components/Layout/3. Linear Layout.md"
   ]
 }

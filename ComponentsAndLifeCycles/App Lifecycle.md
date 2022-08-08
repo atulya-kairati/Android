@@ -1,4 +1,4 @@
-![App](../_IMAGES/app_lifecycle.png)
+![App](app_lifecycle.png)
 
 ```java
 public class MainActivity extends AppCompatActivity {  
