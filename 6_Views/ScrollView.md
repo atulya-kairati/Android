@@ -1,0 +1,50 @@
+- ScrollView can only have one child.  
+- HorizontalScrollView is for horizontal scrolling.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>  
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:app="http://schemas.android.com/apk/res-auto"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:id="@+id/scrollView"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    tools:context=".MainActivity"  
+    tools:ignore="SpeakableTextPresentCheck" >  
+  
+    <LinearLayout        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:orientation="vertical">  
+  
+        <Button            android:id="@+id/button2"  
+            android:layout_width="match_parent"  
+            android:layout_height="300dp"  
+            android:text="Button" />  
+  
+        <Button            android:id="@+id/button3"  
+            android:layout_width="match_parent"  
+            android:layout_height="300dp"  
+            android:text="Button" />  
+  
+        <Button            android:id="@+id/button4"  
+            android:layout_width="match_parent"  
+            android:layout_height="300dp"  
+            android:text="Button" />  
+  
+        <Button            android:id="@+id/button5"  
+            android:layout_width="match_parent"  
+            android:layout_height="300dp"  
+            android:text="Button" />  
+  
+        <Button            android:id="@+id/button6"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="Button" />  
+  
+        <Button            android:id="@+id/button7"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:text="Button" />  
+    </LinearLayout>
+</ScrollView>
+```
