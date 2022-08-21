@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ComponentsAndLifeCycles/Intents.md",
+            "file": "SharedPreference/SharedPrefrences.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComponentsAndLifeCycles/Intents.md",
+                "file": "SharedPreference/SharedPrefrences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComponentsAndLifeCycles/Intents.md",
+                "file": "SharedPreference/SharedPrefrences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComponentsAndLifeCycles/Intents.md"
+                "file": "SharedPreference/SharedPrefrences.md"
               }
             }
           }
@@ -131,15 +131,15 @@
   },
   "active": "2dbd4e72a33a4b49",
   "lastOpenFiles": [
-    "ComponentsAndLifeCycles/App Lifecycle.md",
-    "ComponentsAndLifeCycles/Intents.md",
-    "ComponentsAndLifeCycles/Broadcast Reciever.md",
-    "Recording 20220809004412.webm",
-    "Recording 20220809004346.webm",
-    "ComponentsAndLifeCycles/Services.md",
+    "S.md",
     "ComponentsAndLifeCycles/Fragment Lifecycle.md",
-    "fragment_lifecycle2.png",
-    "ComponentsAndLifeCycles/Activity Lifecycle.md",
-    "Components/Layout/3. Linear Layout.md"
+    "ComponentsAndLifeCycles/Broadcast Reciever.md",
+    "Components/Layout/5. Constraint Layout.md",
+    "Components/Layout/4. Table Layout.md",
+    "Components/Layout/3. Linear Layout.md",
+    "Components/Layout/2. Relative Layout.md",
+    "Components/Layout/1. Layouts.md",
+    "ComponentsAndLifeCycles/Intents.md",
+    "ComponentsAndLifeCycles/App Lifecycle.md"
   ]
 }
