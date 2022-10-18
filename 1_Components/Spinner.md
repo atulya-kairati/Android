@@ -65,3 +65,59 @@ gendaSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() 
     }  
 });
 ```
+
+- With String array
+
+```java
+public class MainActivity extends AppCompatActivity {  
+  
+    TextView display;  
+    Spinner gendaSpinner;  
+//    ArrayAdapter adapter;  
+    ArrayAdapter<String> adapter;  
+    ImageView imageView;  
+  
+    @Override  
+    protected void onCreate(Bundle savedInstanceState) {  
+        super.onCreate(savedInstanceState);  
+        setContentView(R.layout.activity_main);  
+  
+        display = findViewById(R.id.display);  
+        gendaSpinner = findViewById(R.id.genders);  
+        imageView = findViewById(R.id.imageView);  
+  
+        // Creating an Adapter  
+//        adapter = ArrayAdapter.createFromResource(this, R.array.gender, android.R.layout.simple_spinner_dropdown_item);  
+        String[] gender = {"Male", "Female", "Geh"};  
+        adapter = new ArrayAdapter<>(this,
+	        android.R.layout.simple_spinner_dropdown_item, 
+	        gender);  
+  
+
+
+// passing the adapter to the spinner        
+		gendaSpinner.setAdapter(adapter);  
+  
+  
+        gendaSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {  
+            @Override  
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {  
+                String gender = parent.getItemAtPosition(position).toString();  
+                if(gender.equals("Geh")){  
+                    display.setText("Why are you geh?");  
+                    imageView.setImageResource(R.drawable.mista);  
+                    return;                }  
+  
+                display.setText(gender);  
+                imageView.setImageResource(R.drawable.img);  
+            }  
+  
+            @Override  
+            public void onNothingSelected(AdapterView<?> parent) {  
+  
+            }  
+        });  
+  
+    }  
+}
+```
